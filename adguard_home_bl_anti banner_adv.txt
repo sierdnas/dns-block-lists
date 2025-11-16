@@ -1,0 +1,80 @@
+# AdGuard Home Blocklist - Anti Banner & Advertising
+# Blocca: Banner, Pubblicità, Ads, GIF animate, Pop-up, Tracker
+# Aggiornato: 2024
+
+# LISTE PRINCIPALI ANTI-PUBBLICITÀ
+https://filters.adtidy.org/extension/ublock/filters/2.txt
+https://easylist.to/easylist/easylist.txt
+https://easylist.to/easylist/easyprivacy.txt
+https://easylist.to/easylist/fanboy-annoyance.txt
+https://secure.fanboy.co.nz/fanboy-ultimate.txt
+
+# LISTE ITALIANE SPECIFICHE
+https://easylist-downloads.adblockplus.org/easylistitaly.txt
+https://filters.adtidy.org/extension/ublock/filters/12.txt
+
+# BANNER E ADS SPECIFICI
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_1_Base/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_2_Base/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_3_Spyware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_4_Social/filter.txt
+
+# POP-UP E ANNOYANCE
+https://easylist.to/easylist/fanboy-annoyance.txt
+https://secure.fanboy.co.nz/fanboy-annoyance.txt
+https://filters.adtidy.org/extension/ublock/filters/14.txt
+
+# TRACKER E ANALYTICS
+https://easylist.to/easylist/easyprivacy.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_3_Spyware/filter.txt
+
+# REGOLE PERSONALIZZATE PER BANNER
+## Blocca formati immagine pubblicitari
+||doubleclick.net^$image
+||googleadservices.com^$image
+||googlesyndication.com^$image
+||adsystem.com^$image
+||adnxs.com^$image
+
+## Blocca banner GIF animate
+/*banner*.gif^$image
+/*ads*.gif^$image
+/*advertisement*.gif^$image
+/*promo*.gif^$image
+
+## Blocca script pubblicitari
+||adserver.com^$script
+||adsystem.com^$script
+||google-analytics.com^$script
+||googletagmanager.com^$script
+
+## Blocca iframe pubblicitari
+||adsystem.com^$subdocument
+||doubleclick.net^$subdocument
+
+# DOMINI PUBBLICITARI ITALIANI
+||pubblicita.it^
+||banner.it^
+||adsitalia.com^
+||adv-it.com^
+
+# REGOLE AVANZATE PER BANNER
+## Blocca dimensioni standard banner
+/$image,domain=~localhost|~127.0.0.1,width=300,height=250
+/$image,domain=~localhost|~127.0.0.1,width=728,height=90
+/$image,domain=~localhost|~127.0.0.1,width=160,height=600
+/$image,domain=~localhost|~127.0.0.1,width=970,height=90
+
+# ECCEZIONI PER SITI LEGITTIMI
+@@||google-analytics.com^$script,domain=sito-legittimo.com
+@@||googletagmanager.com^$script,domain=sito-legittimo.com
+
+# BLOCCA WIDGET SOCIALI (opzionale)
+||addthis.com^
+||sharethis.com^
+||addtoany.com^
+
+# LISTE AGGIUNTIVE (opzionali)
+https://filters.adtidy.org/extension/ublock/filters/11.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
