@@ -1,5 +1,5 @@
 # AdGuard Home - Extended Adult Content Blocklist
-# Includes:
+# Includes: 
 # 1) Plain domain blocks
 # 2) Adblock-style rules (||domain^)
 # 3) TLD blocking for .xxx
