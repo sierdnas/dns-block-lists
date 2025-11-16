@@ -1,0 +1,117 @@
+! 🔥 Blocklist completa (Ads globali + Disney/Prime/Netflix)
+
+! === GOOGLE ADS / DOUBLECLICK ===
+||doubleclick.net^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagservices.com^
+||googletagmanager.com^
+||g.doubleclick.net^
+||pagead2.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+
+! === META / FACEBOOK ADS ===
+||facebook.com/tr^
+||connect.facebook.net^
+||pixel.facebook.com^
+||ads.facebook.com^
+
+! === AMAZON ADS ===
+||aax.amazon.com^
+||amazon-adsystem.com^
+||ad-api.amazon.com^
+||s.amazon-adsystem.com^
+
+! === TIKTOK ADS ===
+||analytics.tiktok.com^
+||ads.tiktok.com^
+
+! === MICROSOFT ADS / BING ADS ===
+||ads.msn.com^
+||bingads.microsoft.com^
+
+! === TWITTER / X ADS ===
+||ads-api.twitter.com^
+||ads.twitter.com^
+
+! === YAHOO / VERIZON ADS ===
+||ads.yahoo.com^
+||adtech.yahooinc.com^
+||gemini.yahoo.com^
+
+! === TABOOLA ===
+||taboola.com^
+||trc.taboola.com^
+
+! === OUTBRAIN ===
+||outbrain.com^
+||odb.outbrain.com^
+
+! === Criteo ===
+||criteo.com^
+||bidder.criteo.com^
+
+! === Quantcast ===
+||quantserve.com^
+||quantcast.com^
+
+! === Pubmatic ===
+||pubmatic.com^
+||ads.pubmatic.com^
+
+! === AppNexus / Xandr ===
+||adnxs.com^
+||ib.adnxs.com^
+
+! === Trade Desk ===
+||adsrvr.org^
+
+! === Media.net ===
+||media.net^
+||contextual.media.net^
+
+! === OpenX ===
+||openx.net^
+||openx.com^
+
+! === Rubicon / Magnite ===
+||rubiconproject.com^
+
+! === AdRoll ===
+||adroll.com^
+
+! === Smart AdServer ===
+||smartadserver.com^
+! === Yandex Ads ===
+||an.yandex.ru^
+
+! === Disneyplus Ads&Tracking ===
+||bam.nr-data.net^
+||bamgrid.com^
+||disneyplus.com/ads^
+||disney.demdex.net^
+||dssott.com/ads^
+||adobedtm.com^
+||edge.bamgrid.com/track^
+
+! === Prime Video Amazon ADS ===
+||aax.amazon.com^
+||amazon-adsystem.com^
+||fls-na.amazon.com^
+||s.amazon-adsystem.com^
+||amazonvideo.com/ads^
+||primevideo.com/ads^
+
+! === Netflix (Tracking & Future ADS System ) ===
+||ichnaea.netflix.com^
+||api-global.netflix.com/abconfig^
+||netflix.com/beacon^
+||nflxext.com/ads^
+||nflximg.net/ads^
+||nflxvideo.net/ads^
+/(^|\.)tracking\.amazon\./
+/(^|\.)metrics\.amazon\./
+/(^|\.)track(ing)?\./
+/(^|\.)adsrvr\./
+/(^|\.)adserver\./
+
