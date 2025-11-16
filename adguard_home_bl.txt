@@ -109,6 +109,7 @@
 ||nflxext.com/ads^
 ||nflximg.net/ads^
 ||nflxvideo.net/ads^
+
 /(^|\.)tracking\.amazon\./
 /(^|\.)metrics\.amazon\./
 /(^|\.)track(ing)?\./
