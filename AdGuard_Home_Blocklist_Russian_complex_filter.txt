@@ -1,0 +1,62 @@
+# AdGuard Home Blocklist - Российский комплексный фильтр
+# Блокировка: Для взрослых, Азартные игры, Наркотики, Насилие, Вредоносное ПО
+# Обновлено: 2024
+# Репозиторий: [вставить URL GitHub]
+
+# ОСНОВНЫЕ РОССИЙСКИЕ ФИЛЬТРЫ
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_1_Base/filter.txt
+https://filters.adtidy.org/extension/ublock/filters/1.txt
+
+# САЙТЫ ДЛЯ ВЗРОСЛЫХ (Основная категория)
+https://filters.adtidy.org/extension/ublock/filters/14.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_11_Domain/filter.txt
+https://easylist-downloads.adblockplus.org/easylistporn.txt
+
+# АЗАРТНЫЕ ИГРЫ И БУКМЕКЕРЫ
+https://filters.adtidy.org/extension/ublock/filters/16.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_16_Gambling/filter.txt
+https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/gambling/domains
+
+# НАРКОТИКИ И ПСИХОАКТИВНЫЕ ВЕЩЕСТВА
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_10_Drugs/filter.txt
+https://blocklistproject.github.io/Lists/drugs.txt
+
+# ВРЕДОНОСНОЕ ПО И КИБЕРБЕЗОПАСНОСТЬ
+https://filters.adtidy.org/extension/ublock/filters/2.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_224_Malware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_223_Phishing/filter.txt
+https://urlhaus.abuse.ch/downloads/hostfile/
+
+# НАСИЛИЕ И НЕПОДОБАЮЩИЙ КОНТЕНТ
+https://blocklistproject.github.io/Lists/violence.txt
+https://blocklistproject.github.io/Lists/abuse.txt
+
+# РОССИЙСКИЕ РЕСУРСЫ (Дополнительно)
+https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+https://easylist-downloads.adblockplus.org/ruadlist+easylist.txt
+
+# СОЦИАЛЬНЫЕ СЕТИ И ОТВЛЕКАЮЩИЕ САЙТЫ (Опционально)
+https://filters.adtidy.org/extension/ublock/filters/4.txt
+https://blocklistproject.github.io/Lists/social.txt
+
+# РЕКЛАМА И ТРЕКЕРЫ
+https://filters.adtidy.org/extension/ublock/filters/3.txt
+https://easylist.to/easylist/easylist.txt
+https://easylist.to/easylist/easyprivacy.txt
+
+# РОССИЙСКИЕ ДОМЕНЫ ДЛЯ БЛОКИРОВКИ (Ручное добавление)
+# ||porn*^
+# ||секс*^
+# ||казино*^
+# ||ставки*^
+# ||букмекер*^
+# ||нарк*^
+# ||марихуан*^
+# ||вирус*^
+# ||взлом*^
+
+# РОССИЙСКИЕ МЕССЕНДЖЕРЫ (Выборочная блокировка)
+# ||telegram.org^
+# ||vk.com^
+# ||ok.ru^
