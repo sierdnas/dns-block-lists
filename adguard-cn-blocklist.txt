@@ -1,0 +1,69 @@
+# AdGuard Home Blocklist - 中国全面过滤器
+# 屏蔽: 成人内容、赌博、毒品、暴力、恶意软件
+# 更新: 2024
+# 仓库: [插入GitHub URL]
+
+# 中国主要过滤器
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_1_Base/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_224_Malware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_223_Phishing/filter.txt
+
+# 成人内容网站
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_11_Domain/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_14_Adult/filter.txt
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
+
+# 赌博和博彩网站
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_16_Gambling/filter.txt
+https://blocklistproject.github.io/Lists/gambling.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_13_Fraud/filter.txt
+
+# 毒品和违禁药物
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_10_Drugs/filter.txt
+https://blocklistproject.github.io/Lists/drugs.txt
+
+# 恶意软件和网络安全
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_224_Malware/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_223_Phishing/filter.txt
+https://urlhaus.abuse.ch/downloads/hostfile/
+
+# 暴力和不当内容
+https://blocklistproject.github.io/Lists/violence.txt
+https://blocklistproject.github.io/Lists/abuse.txt
+
+# 中国特定域名屏蔽
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_15_Social/filter.txt
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
+
+# 广告和跟踪器
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_2_Base/filter.txt
+https://easylist.to/easylist/easylist.txt
+https://easylist.to/easylist/easyprivacy.txt
+
+# 中国社交媒体和游戏（可选屏蔽）
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_15_Social/filter.txt
+https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/filters/filter_21_Games/filter.txt
+
+# 自定义中国域名规则（手动添加）
+# ||色情*^
+# ||成人*^
+# ||赌博*^
+# ||赌场*^
+# ||毒品*^
+# ||暴力*^
+# ||恶意软件*^
+# ||病毒*^
+# ||钓鱼*^
+
+# 中国视频和流媒体平台（可选）
+# ||youku.com^
+# ||iqiyi.com^
+# ||bilibili.com^
+# ||douyin.com^
+# ||tiktok.com^
+
+# 中国购物和支付平台（可选）
+# ||taobao.com^
+# ||jd.com^
+# ||alipay.com^
+# ||wechat.com^
