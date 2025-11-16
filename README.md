@@ -1,2 +1,2 @@
-# dns-block-lists
-dns block lists for AdGuard Home e Pi-hole.
+# DNS block lists
+DNS block lists for AdGuard Home e Pi-hole.
