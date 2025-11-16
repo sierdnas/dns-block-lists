@@ -1,0 +1,122 @@
+# AdGuard Home - Extended Adult Content Blocklist
+# Includes:
+# 1) Plain domain blocks
+# 2) Adblock-style rules (||domain^)
+# 3) TLD blocking for .xxx
+# 4) Regex rules for adult-related keywords
+# Suitable for hosting on GitHub and importing via URL.
+# Last updated: 2025-11-16
+
+##########
+# TLD BLOCK (.xxx)
+##########
+||.xxx^
+
+##########
+# DOMAIN LIST (plain)
+##########
+adultfriendfinder.com
+bangbros.com
+beeg.com
+brazzers.com
+cam4.com
+chaturbate.com
+cumlouder.com
+drtuber.com
+efukt.com
+eporner.com
+extremetube.com
+fapcity.com
+fapdu.com
+fapster.com
+faproulette.com
+hclips.com
+hentai-foundry.com
+hentai2read.com
+hentaihaven.com
+hentaifox.com
+iwank.tv
+ixxx.com
+javhd.com
+keezmovies.com
+legalporno.com
+motherless.com
+myfreecams.com
+onlyfans.com
+porn.com
+pornhub.com
+pornmd.com
+pornrabbit.com
+redtube.com
+sex.com
+slutload.com
+spankwire.com
+tnaflix.com
+tube8.com
+upornia.com
+vids.xxx
+xbabe.com
+xhamster.com
+xvideos.com
+xnxx.com
+youjizz.com
+youporn.com
+
+##########
+# ADBLOCK STYLE RULES
+##########
+||adultfriendfinder.com^
+||bangbros.com^
+||beeg.com^
+||brazzers.com^
+||cam4.com^
+||chaturbate.com^
+||cumlouder.com^
+||drtuber.com^
+||eporner.com^
+||extremetube.com^
+||fapcity.com^
+||fapdu.com^
+||fapster.com^
+||faproulette.com^
+||hclips.com^
+||hentai-foundry.com^
+||hentai2read.com^
+||hentaihaven.com^
+||hentaifox.com^
+||iwank.tv^
+||ixxx.com^
+||javhd.com^
+||keezmovies.com^
+||legalporno.com^
+||motherless.com^
+||myfreecams.com^
+||onlyfans.com^
+||porn.com^
+||pornhub.com^
+||pornmd.com^
+||pornrabbit.com^
+||redtube.com^
+||sex.com^
+||slutload.com^
+||spankwire.com^
+||tnaflix.com^
+||tube8.com^
+||upornia.com^
+||xbabe.com^
+||xhamster.com^
+||xvideos.com^
+||xnxx.com^
+||youjizz.com^
+||youporn.com^
+
+##########
+# REGEX RULES
+# NOTE: AdGuard Home supports RE2 regex with syntax: /pattern/
+##########
+/adult(vid|video|videos|tube|sex)/  
+/(porn|porno|xxx)[0-9\-]*/  
+/(sex|escort|cams?)[0-9\-]*/  
+/(hentai|jav|ecchi)[0-9\-]*/
+
+# END OF LIST
