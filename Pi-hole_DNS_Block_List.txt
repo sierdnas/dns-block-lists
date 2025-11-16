@@ -1,0 +1,82 @@
+# ===== AMAZON / PRIME VIDEO =====
+0.0.0.0 amazon-adsystem.com
+0.0.0.0 aaxads.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 fls-na.amazon.com
+0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 mads.amazon.com
+0.0.0.0 prd-prime-video-prod-na.amazon.com
+0.0.0.0 prime-video-ads.amazon.com
+0.0.0.0 prime-video-ads-global.amazon.com
+
+# ===== NETFLIX =====
+0.0.0.0 ios.prod.ftl.netflix.com
+0.0.0.0 ichnaea.netflix.com
+0.0.0.0 secure.netflix.com
+0.0.0.0 log.netflix.com
+0.0.0.0 appboot.netflix.com
+0.0.0.0 nrdp.nccp.netflix.com
+0.0.0.0 nccp.netflix.com
+0.0.0.0 tracking.netflix.com
+
+# ===== DISNEY+ =====
+0.0.0.0 bamgrid.com
+0.0.0.0 disneyplus.com
+0.0.0.0 disney-plus.net
+0.0.0.0 cws.conviva.com
+0.0.0.0 thewaltdisneycompany.com
+0.0.0.0 disney.demdex.net
+0.0.0.0 cdn.registerdisney.go.com
+0.0.0.0 disney.d1.sc.omtrdc.net
+
+# ===== SAMSUNG SMART TV =====
+0.0.0.0 samsungads.com
+0.0.0.0 samsungacr.com
+0.0.0.0 ads.samsung.com
+0.0.0.0 config.samsungads.com
+0.0.0.0 gpm.samsungqbe.com
+0.0.0.0 log-ingestion.samsungacr.com
+0.0.0.0 samsungtvads.com
+
+# ===== LG SMART TV =====
+0.0.0.0 ngfts.lge.com
+0.0.0.0 us.ibis.lgappstv.com
+0.0.0.0 lgad.cjpowercast.com
+0.0.0.0 lgtvapp.lgappstv.com
+0.0.0.0 edge.api.lgsmartad.com
+0.0.0.0 collector.smartthinq.com
+
+# ===== SONY SMART TV =====
+0.0.0.0 sonymobile.com
+0.0.0.0 sony.net
+0.0.0.0 ads.sony.com
+0.0.0.0 prd.sonyacr.com
+
+# ===== ROKU =====
+0.0.0.0 ads.roku.com
+0.0.0.0 p.ads.roku.com
+0.0.0.0 tracks.roku.com
+0.0.0.0 turner.roku.com
+0.0.0.0 cloudservices.roku.com
+
+# ===== ANDROID TV / GOOGLE TV =====
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.it
+0.0.0.0 s.youtube.com
+0.0.0.0 youtubei.googleapis.com
+
+# ===== GENERAL SMART TV / TRACKING =====
+0.0.0.0 advertising.com
+0.0.0.0 ads.yieldmo.com
+0.0.0.0 adsdk.yandex.ru
+0.0.0.0 adnxs.com
+0.0.0.0 scorecardresearch.com
+0.0.0.0 analytics.yahoo.com
+0.0.0.0 app-measurement.com
+0.0.0.0 conviva.com
+0.0.0.0 demdex.net
+0.0.0.0 omtrdc.net
