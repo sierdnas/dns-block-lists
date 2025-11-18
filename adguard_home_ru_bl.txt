@@ -1,7 +1,7 @@
 # AdGuard Home Blocklist - Российский комплексный фильтр
 # Блокировка: Для взрослых, Азартные игры, Наркотики, Насилие, Вредоносное ПО
 # Обновлено: 2024
-# Репозиторий: [вставить URL GitHub]
+# Репозиторий: [https://github.com/sierdnas/dns-block-lists/blob/main/adguard_home_ru_bl.txt]
 
 # ОСНОВНЫЕ РОССИЙСКИЕ ФИЛЬТРЫ
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
@@ -46,15 +46,16 @@ https://easylist.to/easylist/easylist.txt
 https://easylist.to/easylist/easyprivacy.txt
 
 # РОССИЙСКИЕ ДОМЕНЫ ДЛЯ БЛОКИРОВКИ (Ручное добавление)
-# ||porn*^
-# ||секс*^
-# ||казино*^
-# ||ставки*^
-# ||букмекер*^
-# ||нарк*^
-# ||марихуан*^
-# ||вирус*^
-# ||взлом*^
+||porn*^
+||секс*^
+||казино*^
+||ставки*^
+||букмекер*^
+||нарк*^
+||марихуан*^
+||вирус*^
+||взлом*^
+||гашиш*^
 
 # РОССИЙСКИЕ МЕССЕНДЖЕРЫ (Выборочная блокировка)
 # ||telegram.org^
