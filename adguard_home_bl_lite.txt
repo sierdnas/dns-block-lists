@@ -179,11 +179,21 @@
 ||an.yandex.ru^
 ||adfstat.yandex.ru^
 ||appmetrica.yandex.ru^
+||dfstat.yandex.ru^
 
 ! ================================
 !  HONEYBADGER (error tracking)
 ! ================================
 ||api.honeybadger.io^
+
+! ================================
+!  Mobile Ad Networks
+! ================================
+||live.chartboost.com^
+||ws.tapjoyads.com^
+||init.supersonicads.com^
+||api.fyber.com^
+||inmobi.com^
 
 ! ================================
 !  RAYGUN (error tracking)
