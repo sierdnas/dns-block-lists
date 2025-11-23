@@ -1,5 +1,6 @@
 ! ADGUARD HOME - VERSIONE AGGRESSIVA UNICA
 ! Contiene Ads, Trackers, Malware, Adult, Gambling, Telemetry, Analytics
+! File: https://github.com/sierdnas/dns-block-lists/edit/main/adguard-aggressive.txt
 
 ||doubleclick.net0.com^
 ||googleadservices.com1.com^
