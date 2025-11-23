@@ -1,0 +1,234 @@
+! ================================
+!  GOOGLE ADS / DOUBLECLICK
+! ================================
+||doubleclick.net^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagservices.com^
+||googletagmanager.com^
+||g.doubleclick.net^
+||pagead2.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||gstaticadssl.l.google.com^
+
+! ================================
+!  YOUTUBE ADS (SAFE)
+!  - blocco lato DNS (limitato)
+! ================================
+||s.youtube.com^
+||redirector.googlevideo.com^
+||youtubei.googleapis.com^
+
+! ================================
+!  ADVANCED TRACKERS / ANALYTICS
+! ================================
+||fingerprintjs.com^
+||siftscience.com^
+||permutive.com^
+||bluekai.com^
+||onetag-sys.com^
+
+! ================================
+!  SENTRY (Error tracking)
+! ================================
+||browser.sentry-cdn.com^
+||app.getsentry.com^
+
+! ================================
+!  META / FACEBOOK ADS & TRACKING
+! ================================
+||facebook.com/tr^
+||connect.facebook.net^
+||pixel.facebook.com^
+||ads.facebook.com^
+||an.facebook.com^
+||graph.facebook.com^
+
+! ================================
+!  INSTAGRAM
+! ================================
+||graph.instagram.com^
+
+! ================================
+!  SNAPCHAT ADS
+! ================================
+||sc-static.net^
+||tr.snapchat.com^
+||ads.snapchat.com^
+
+! ================================
+!  QUORA
+! ================================
+||pixel.quora.com^
+
+! ================================
+!  VK — VKontakte
+! ================================
+||ads.vk.com^
+||api.vk.com^
+
+! ================================
+!  AMAZON ADS (SAFE)
+!  - NON blocca Prime Video
+! ================================
+||amazon-adsystem.com^
+||ad-api.amazon.com^
+||aax.amazon.com^
+||s.amazon-adsystem.com^
+||fls-na.amazon.com^
+
+! ================================
+!  TIKTOK ADS
+! ================================
+||analytics.tiktok.com^
+||ads.tiktok.com^
+
+! ================================
+!  MICROSOFT / BING ADS
+! ================================
+||ads.msn.com^
+||bingads.microsoft.com^
+
+! ================================
+!  TWITTER / X ADS
+! ================================
+||ads-api.twitter.com^
+||ads.twitter.com^
+
+! ================================
+!  YAHOO / VERIZON ADS
+! ================================
+||ads.yahoo.com^
+||adtech.yahooinc.com^
+||gemini.yahoo.com^
+||udc.yahoo.com^
+||udcm.yahoo.com^
+||analytics.query.yahoo.com^
+
+! ================================
+!  TABOOLA
+! ================================
+||taboola.com^
+||trc.taboola.com^
+
+! ================================
+!  OUTBRAIN
+! ================================
+||outbrain.com^
+||odb.outbrain.com^
+
+! ================================
+!  CRITEO
+! ================================
+||criteo.com^
+||bidder.criteo.com^
+
+! ================================
+!  QUANTCAST
+! ================================
+||quantserve.com^
+||quantcast.com^
+
+! ================================
+!  PUBMATIC
+! ================================
+||pubmatic.com^
+||ads.pubmatic.com^
+
+! ================================
+!  APPNEXUS / XANDR
+! ================================
+||adnxs.com^
+||ib.adnxs.com^
+
+! ================================
+!  TRADE DESK
+! ================================
+||adsrvr.org^
+
+! ================================
+!  MEDIA.NET
+! ================================
+||media.net^
+||contextual.media.net^
+
+! ================================
+!  OPENX
+! ================================
+||openx.net^
+||openx.com^
+
+! ================================
+!  RUBICON / MAGNITE
+! ================================
+||rubiconproject.com^
+
+! ================================
+!  ADROLL
+! ================================
+||adroll.com^
+
+! ================================
+!  SMART ADSERVER
+! ================================
+||smartadserver.com^
+
+! ================================
+!  YANDEX ADS
+! ================================
+||an.yandex.ru^
+||adfstat.yandex.ru^
+||appmetrica.yandex.ru^
+
+! ================================
+!  HONEYBADGER (error tracking)
+! ================================
+||api.honeybadger.io^
+
+! ================================
+!  RAYGUN (error tracking)
+! ================================
+||api.raygun.com^
+||cdn.raygun.io^
+
+! ================================
+!  Unity ADS
+! ================================
+||auction.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
+||config.unityads.unity3d.com^
+||adserver.unityads.unity3d.com^
+
+! ================================
+!  AIRBRAKE (error tracking)
+! ================================
+||airbrake.io^
+||collect.airbrake.io^
+||api.airbrake.io^
+
+! ================================
+!  GOOGLE CLOUD STACKDRIVER (telemetria)
+!  - SAFE: non blocca servizi Google
+! ================================
+||logging.googleapis.com^
+||trace.googleapis.com^
+||errorreporting.googleapis.com^
+
+! ================================
+!  SAFE ADULT / GAMBLING / DRUGS FILTERING
+!  - Regex compatibili con AdGuard Home
+!  - NON aggressive (niente falsi positivi)
+! ================================
+/(^|\.)porn[0-9]*$/
+/(^|\.)porn($|\.)/
+/(^|\.)adult($|\.)/
+/(^|\.)xxx($|\.)/
+/(^|\.)casino($|\.)/
+/(^|\.)bet($|\.)/
+/(^|\.)betting($|\.)/
+/(^|\.)slot($|\.)/
+/(^|\.)scommesse($|\.)/
+/(^|\.)weed($|\.)/
+/(^|\.)drug($|\.)/
+/(^|\.)malware($|\.)/
+/(^|\.)virus($|\.)/
